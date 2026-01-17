@@ -1,0 +1,85 @@
+/* General */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+/* Section 1: Countdown */
+#countdown-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown {
+    font-size: 3rem;
+    display: flex;
+    gap: 20px;
+}
+
+.time {
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Section 2: Photos */
+#photos-section {
+    padding: 50px 20px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.photo-grid img {
+    width: 100%;
+    border: 5px solid rgba(255,255,255,0.7);
+    border-radius: 15px;
+}
+
+/* Section 3: Letter */
+#letter-section {
+    padding: 50px 20px;
+}
+
+.letter-frame {
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Section 4: Cake */
+#cake-section {
+    padding: 50px 20px;
+}
+
+.cake-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cake {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#blow-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: #ff69b4;
+    color: white;
+}
